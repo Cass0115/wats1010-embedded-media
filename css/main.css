@@ -1,10 +1,70 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
-
- html {
-     color: green;
- }
+html{
+  font-family:sans-serif;
+  padding:0;
+  margin:0;
+}
+body{
+  margin:0;
+  font-family:oswald, 'sans-serif';
+}
+header{
+  background-color:teal;
+}
+img.monkaa-header{
+  width:100%;
+  min-height:450px;
+  background-repeat
+}
+h1{
+  position: absolute;
+  top: -35px;
+  left: 50px;
+  font-size:50px;  
+  color:white;
+}
+header p{
+  position: absolute;
+  top: 37px;
+  left: 50px;
+  font-size:22px;
+  color:white;
+}
+ul.main-nav{
+  position: absolute;
+  top: 10px;
+  right: 150px;
+}
+.main-nav li{
+  display:inline-block; 
+  padding:16px;
+}
+.main-nav li a{
+  text-decoration:none;
+  color:white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+img.headshot{
+  width:150px;
+  height:auto;
+}
+ul li{
+  list-style:none;
+}
+#social{
+  background-color:violet;
+  position:fixed;
+  top:0px;
+  right:0;
+  width:75px;
+  transition: 2s width;
+}
+#social ul{
+  padding:0
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
