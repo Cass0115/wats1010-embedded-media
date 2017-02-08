@@ -1,12 +1,14 @@
 html{
-  font-family:sans-serif;
   padding:0;
   margin:0;
 }
+/*add comment -Hello*/
 body{
   margin:0;
-  font-family:oswald, 'sans-serif';
+  font-family:sans-serif;
+  background-color:#f7e6ff;
 }
+
 header{
   background-color:teal;
 }
@@ -50,6 +52,7 @@ img.headshot{
 }
 ul li{
   list-style:none;
+  display:inline-block;
 }
 #social{
   background-color:violet;
@@ -67,4 +70,13 @@ h2{
   font-size: 50px;
   padding-top: 5rem;
   padding-bottom: 3rem;
+}
+video{
+  padding:15%;
+}
+h3{
+  text-align:center;
+}
+#weybec-people ul{
+      display: inline-block;
 }
